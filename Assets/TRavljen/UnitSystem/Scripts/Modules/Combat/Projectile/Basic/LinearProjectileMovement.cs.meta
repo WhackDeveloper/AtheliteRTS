@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 54b5c37e640c5497f9164d6b489fc9d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Combat/Projectile/Basic/LinearProjectileMovement.cs
+  uploadId: 754268

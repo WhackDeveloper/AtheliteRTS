@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0a18cb4a08e584a34bf085c078c36247
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Interactions/IMoveUnitForInteraction.cs
+  uploadId: 754268

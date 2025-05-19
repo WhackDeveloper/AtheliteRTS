@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0db747347814552936cad77514c3d4, type: 3}
+  m_Name: Food Node
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483634
+  Name: Food node
+  Description: 
+  Sprite: {fileID: 0}
+  ProductionAttributes: []
+  Requirements: []
+  Cost: []
+  ProductionDuration: 0
+  faction: {fileID: 0}
+  capabilities:
+  - rid: 1805783049495379993
+  associatedPrefab: {fileID: 8557316035180004064, guid: fcb7a755609f84772a84dd32d45bc23d,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1805783049495379993
+      type: {class: ResourceNodeCapability, ns: TRavljen.UnitSystem.Collection, asm: Assembly-CSharp}
+      data:
+        resource:
+          Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+          Quantity: 400

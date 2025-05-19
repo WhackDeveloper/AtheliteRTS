@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 27cba5bb87cd343c2b407ff7315a2323
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Utility/IEntityPrefabCreatable.cs
+  uploadId: 754268

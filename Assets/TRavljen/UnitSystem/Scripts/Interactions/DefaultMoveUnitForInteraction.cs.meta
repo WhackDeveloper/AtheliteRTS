@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0bc5d2ace192645c5b15ddac76eee4a0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Interactions/DefaultMoveUnitForInteraction.cs
+  uploadId: 754268

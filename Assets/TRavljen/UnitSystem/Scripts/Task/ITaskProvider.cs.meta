@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b68a93efaaec2462badbc358718f21a7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Task/ITaskProvider.cs
+  uploadId: 754268

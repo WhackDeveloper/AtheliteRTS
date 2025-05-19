@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3648a2aedaf34679866f2dc4e0a1e1c, type: 3}
+  m_Name: Worker
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483640
+  Name: Worker
+  Description: 
+  Sprite: {fileID: 0}
+  ProductionAttributes:
+  - Attribute: {fileID: 11400000, guid: c385507d365644a9394ec7478b0c3972, type: 2}
+    Value: 1
+  Requirements: []
+  Cost:
+  - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+    Quantity: 50
+  ProductionDuration: 0.5
+  capabilities:
+  - rid: 1805783049495379982
+  - rid: 1805783144831123458
+  - rid: 1805783144831123463
+  - rid: 4968033599082201088
+  - rid: 4968033648439721984
+  types:
+  - {fileID: 11400000, guid: 7549259272d014377bf4cb56f676e24b, type: 2}
+  associatedPrefab: {fileID: 1154598218274780642, guid: 3aef17a42df4f483799e2a115a85c9ac, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1805783049495379982
+      type: {class: AttackCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        defaultStance: 3
+        minRange: 0
+        range: 1
+        reloadSpeed: 3
+        damage: 13
+        lineOfSight: 8
+        damagePerType:
+        - unitType: {fileID: 11400000, guid: 773384b5fc5454d8dbd5cd19cc82f1d7, type: 2}
+          entity: {fileID: 0}
+          damage: 10
+        invalidTargetTypes: []
+    - rid: 1805783144831123458
+      type: {class: ResourceCollectorCapability, ns: TRavljen.UnitSystem.Collection, asm: Assembly-CSharp}
+      data:
+        collectType: 2
+        capacity: 100
+        collectInterval: 3
+        collectAmount: 10
+        minRange: 0.1
+        range: 1
+        supportedResources:
+        - {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+        - {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+    - rid: 1805783144831123463
+      type: {class: HealthCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        healthPoints: 130
+        canDecrease: 1
+        canIncrease: 0
+        regeneration: 0
+    - rid: 4968033599082201088
+      type: {class: BuilderCapability, ns: TRavljen.UnitSystem.Build, asm: Assembly-CSharp}
+      data:
+        autoPickup: 1
+        pickupRadius: 100
+        minRange: 0
+        range: 1
+        buildInterval: 0.02
+        power: 50
+    - rid: 4968033648439721984
+      type: {class: GarrisonableUnitCapability, ns: TRavljen.UnitSystem.Garrison, asm: Assembly-CSharp}
+      data:
+        minRange: 0
+        maxRange: 2

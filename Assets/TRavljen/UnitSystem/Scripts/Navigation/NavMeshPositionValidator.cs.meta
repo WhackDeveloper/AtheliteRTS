@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5eb32eea5b0144321bcef65f138f4b1a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Navigation/NavMeshPositionValidator.cs
+  uploadId: 754268

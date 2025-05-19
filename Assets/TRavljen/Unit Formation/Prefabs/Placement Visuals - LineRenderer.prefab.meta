@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eb0b725105ead47e9952ffcfd4600866
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Unit Formation/Prefabs/Placement Visuals - LineRenderer.prefab
+  uploadId: 754268

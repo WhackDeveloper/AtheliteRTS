@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 22d078572dcaa4a1c852e54712b6256f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Scripts/Editor/QuickAccessUnitSelectorEditor.cs
+  uploadId: 754268

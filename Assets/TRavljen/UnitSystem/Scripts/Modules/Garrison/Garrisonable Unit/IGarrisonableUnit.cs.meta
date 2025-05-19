@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dc5f160abd2eb47d5b4b02fcc8cadfde
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Garrison/Garrisonable Unit/IGarrisonableUnit.cs
+  uploadId: 754268

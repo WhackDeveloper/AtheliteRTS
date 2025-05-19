@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c8257b8e75f554b9da3d4d45b73c77d4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Combat/Projectile/Basic/StraightMovement.cs
+  uploadId: 754268

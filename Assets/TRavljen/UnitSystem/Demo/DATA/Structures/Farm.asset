@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3648a2aedaf34679866f2dc4e0a1e1c, type: 3}
+  m_Name: Farm
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483627
+  Name: Farm
+  Description: Used for passive food production. It also serves as a food deposit
+    point for collectors.
+  Sprite: {fileID: 0}
+  ProductionAttributes: []
+  Requirements:
+  - Producible: {fileID: 11400000, guid: d27cb064cb80344ad86754b1b71486b0, type: 2}
+    Quantity: 1
+  Cost:
+  - Resource: {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+    Quantity: 20
+  ProductionDuration: 5
+  capabilities:
+  - rid: 1805783192630984712
+  - rid: 1805783192630984713
+  - rid: 4646993836240011270
+  - rid: 4646994053970788356
+  types:
+  - {fileID: 11400000, guid: 773384b5fc5454d8dbd5cd19cc82f1d7, type: 2}
+  associatedPrefab: {fileID: 3125385098345246451, guid: 2ab810f84c7314574b6561aa3a053d53, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1805783192630984712
+      type: {class: HealthCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        healthPoints: 400
+        canDecrease: 1
+        canIncrease: 1
+        regeneration: 0
+    - rid: 1805783192630984713
+      type: {class: ResourceDepotCapability, ns: TRavljen.UnitSystem.Collection, asm: Assembly-CSharp}
+      data:
+        supportedResources:
+        - {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+    - rid: 4646993836240011270
+      type: {class: PassiveResourceProductionCapability, ns: TRavljen.UnitSystem, asm: Assembly-CSharp}
+      data:
+        producesResource:
+        - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+          Quantity: 5
+        depositResourceQuantity: 10
+    - rid: 4646994053970788356
+      type: {class: BuildableCapability, ns: TRavljen.UnitSystem.Build, asm: Assembly-CSharp}
+      data:
+        autoBuild: 0
+        useHealth: 1

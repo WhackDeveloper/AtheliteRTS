@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a0ba704bcf7184e12be8f78e4519c979
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Production/Core/Attribute/ProductionAttributeValue.cs
+  uploadId: 754268

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b2ae56b3b3dc4c7d8cd0d728ec923ef4
+timeCreated: 1746128589
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Unit/Control/Spawner/StaticUnitSpawner.cs
+  uploadId: 754268

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d3cd184b1ed0f4df39c4c3ab49d7c443
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Spectator/Scripts/Input/InputActionsControl.cs
+  uploadId: 754268

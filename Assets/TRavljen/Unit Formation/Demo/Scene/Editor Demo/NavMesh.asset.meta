@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 92de9c2fdc8e147d1a38f7f4e7163c5f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Unit Formation/Demo/Scene/Editor Demo/NavMesh.asset
+  uploadId: 754268

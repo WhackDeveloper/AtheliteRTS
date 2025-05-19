@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3648a2aedaf34679866f2dc4e0a1e1c, type: 3}
+  m_Name: Barracks
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483628
+  Name: Barracks
+  Description: Soldier production structure
+  Sprite: {fileID: 0}
+  ProductionAttributes: []
+  Requirements:
+  - Producible: {fileID: 11400000, guid: d27cb064cb80344ad86754b1b71486b0, type: 2}
+    Quantity: 1
+  - Producible: {fileID: 11400000, guid: 2ef616b27dcd345368f39e50274948bd, type: 2}
+    Quantity: 1
+  Cost:
+  - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+    Quantity: 100
+  - Resource: {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+    Quantity: 100
+  ProductionDuration: 10
+  capabilities:
+  - rid: 1805783192630984709
+  - rid: 4646993730473820167
+  - rid: 4646993730473820168
+  types:
+  - {fileID: 11400000, guid: 773384b5fc5454d8dbd5cd19cc82f1d7, type: 2}
+  associatedPrefab: {fileID: 4404442711887820074, guid: d590c76c1b18c4ac7804cc0f9da730e0, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1805783192630984709
+      type: {class: HealthCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        healthPoints: 800
+        canDecrease: 1
+        canIncrease: 1
+        regeneration: 0
+    - rid: 4646993730473820167
+      type: {class: BuildableCapability, ns: TRavljen.UnitSystem.Build, asm: Assembly-CSharp}
+      data:
+        autoBuild: 0
+        useHealth: 1
+    - rid: 4646993730473820168
+      type: {class: ActiveProductionCapability, ns: TRavljen.UnitSystem, asm: Assembly-CSharp}
+      data:
+        productionActions:
+        - keyCode: 282
+          producibleQuantity:
+            Producible: {fileID: 11400000, guid: 47ecbf77d8524482495dd2de6d03914c, type: 2}
+            Quantity: 1
+        - keyCode: 283
+          producibleQuantity:
+            Producible: {fileID: 11400000, guid: 8727dbb7760f74723bfc95d0043ac265, type: 2}
+            Quantity: 1
+        - keyCode: 284
+          producibleQuantity:
+            Producible: {fileID: 11400000, guid: 1f16b5f3b3e02468c96a2dbc4f269d9e, type: 2}
+            Quantity: 1

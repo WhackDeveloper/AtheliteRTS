@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fec88cd19d17f41a6986587390b14a31
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Spectator/Scripts/Input/DoubleClickHandler.cs
+  uploadId: 754268

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0658933df7e2e439ca54ed2017d6fec1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Integration/Scripts/ActivePlacementSelectionToggler.cs
+  uploadId: 754268

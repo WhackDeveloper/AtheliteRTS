@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cc0d6c2595a234e25a0482e756c5cbb4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Unit Formation/Scripts/Formations/RingFormation.cs
+  uploadId: 754268

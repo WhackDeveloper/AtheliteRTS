@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 536bc30328e4d49568c591291a5ff8fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Interactions/StaticPositions/GeneratedPositionsData.cs
+  uploadId: 754268

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 108d0b2bfbf50474c9748dd4ddffa589
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Unit/Control/IUnitMovement.cs
+  uploadId: 754268

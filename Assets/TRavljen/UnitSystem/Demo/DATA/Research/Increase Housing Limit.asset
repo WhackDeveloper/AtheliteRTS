@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38dcbaffe08ed4401a0cf6f2ed4ecf48, type: 3}
+  m_Name: Increase Housing Limit
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483637
+  Name: Increase housing limit
+  Description: Increases housing limit of your settlement.
+  Sprite: {fileID: 0}
+  ProductionAttributes:
+  - Attribute: {fileID: 11400000, guid: 975a0a1c095ae4da293e78fe46f0b2b6, type: 2}
+    Value: 10
+  Requirements: []
+  Cost:
+  - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+    Quantity: 100
+  ProductionDuration: 2

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4698116447913169663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5342152585805361441}
+  - component: {fileID: 6176250993054358765}
+  - component: {fileID: 5171062467463080394}
+  - component: {fileID: 5346289290222401431}
+  m_Layer: 0
+  m_Name: SelectionSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5342152585805361441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698116447913169663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6176250993054358765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698116447913169663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8df17bf10c3472ea2313fe248560d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configuration:
+    SelectableLayerMask:
+      serializedVersion: 2
+      m_Bits: 2147483647
+    DragSelectionEnabled: 1
+    DragHighlightEnabled: 1
+    ModifyingCurrentSelectionEnabled: 1
+    DoubleClickSelectionEnabled: 1
+    IgnoreWhenOverUI: 1
+    SortSelectionByDistance: 1
+    RaycastType: 1
+    MaxRaycastHits: 10
+    MaxSelectionDistance: 300
+    MouseDragThreshold: 10
+    HighlightOnMouseHover: 1
+  inputControl: {fileID: 0}
+  inputType: 0
+  _camera: {fileID: 0}
+  SelectionArea: {fileID: 0}
+--- !u!114 &5171062467463080394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698116447913169663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0666d1cf508cf4528aea8b9cdec276a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyMaxActiveSelections: 1
+  MaxActiveSelections: 10
+  supportsGroups: 0
+--- !u!114 &5346289290222401431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698116447913169663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19683aa08cff2497c8801d1ebd4b13ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnableQuickAccess: 1

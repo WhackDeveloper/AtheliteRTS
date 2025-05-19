@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a4fdf85c201df4994a4ed6e12ad2023c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Editor/System Database/UnitSystemManagerWindow.cs
+  uploadId: 754268

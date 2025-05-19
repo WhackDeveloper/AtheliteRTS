@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 574cd3d1a94224abdbdb8f51df7a57ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Scripts/Selection/Events/SelectionEvents.cs
+  uploadId: 754268

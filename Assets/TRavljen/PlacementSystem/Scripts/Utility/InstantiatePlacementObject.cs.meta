@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2a9bbc92ed56544dca209f8e5dc7a4b2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Scripts/Utility/InstantiatePlacementObject.cs
+  uploadId: 754268

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 07af5c47fb2da457e8695820071fbf0a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Integration/Scenes/Integration Scene/NavMesh-Ground.asset
+  uploadId: 754268

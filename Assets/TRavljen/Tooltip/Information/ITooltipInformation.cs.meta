@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 507645dd8430a4b048b0a6598d69773b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Tooltip/Information/ITooltipInformation.cs
+  uploadId: 754268

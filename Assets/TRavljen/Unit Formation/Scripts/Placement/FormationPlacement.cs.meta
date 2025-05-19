@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 11694c4bf4b1a46f39b831b40c03e752
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Unit Formation/Scripts/Placement/FormationPlacement.cs
+  uploadId: 754268

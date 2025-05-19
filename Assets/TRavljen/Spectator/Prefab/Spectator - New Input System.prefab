@@ -1,0 +1,533 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5243474432898218195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5243474432898218193}
+  - component: {fileID: 5243474432898218192}
+  - component: {fileID: 2223530675031939054}
+  - component: {fileID: 244763045455314315}
+  - component: {fileID: 5243474432378291810}
+  - component: {fileID: 5243474432378291813}
+  - component: {fileID: 1936786755877935399}
+  m_Layer: 10
+  m_Name: Spectator - New Input System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5243474432898218193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243474432898218195}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5243474432898218192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243474432898218195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22fe23129a6f46c1beac1a7e9149808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpectatorEnabled: 0
+  TargetCamera: {fileID: 0}
+  Options:
+    Speed: 10
+    CenterDistance: 10
+    RequiredRotationTrigger: 0
+    RotationSpeed: 200
+    CameraSmooth: 8
+    ZoomSensitivity: 5
+    InvertZoom: 0
+    CollisionEnabled: 1
+    LockCursor: 0
+    CollisionLayerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    RestrictPosition: 0
+    AllowedAreaBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 7.5, y: 5, z: 7.5}
+  SelectionOptions:
+    Enabled: 1
+    DoubleClickEnabled: 1
+    MaxSelectDistance: 100
+    LayerMask:
+      serializedVersion: 2
+      m_Bits: 0
+  BoostOptions:
+    EnableBoost: 1
+    BoostSpeed: 20
+--- !u!114 &2223530675031939054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243474432898218195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3cd184b1ed0f4df39c4c3ab49d7c443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Configuration:
+    ToggleAction:
+      m_Name: Toggle
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 4b42591f-0dc4-488a-bc19-0fb67134e2ee
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 496e7258-58b6-4885-92b0-4f58e7ce170b
+        m_Path: <Keyboard>/t
+        m_Interactions: Press
+        m_Processors: 
+        m_Groups: 
+        m_Action: Toggle
+        m_Flags: 0
+    ResetCameraAction:
+      m_Name: Reset Camera
+      m_Type: 0
+      m_ExpectedControlType: Button
+      m_Id: ebd7bc70-8b4b-43c1-9980-3cfe6961cd8b
+      m_Processors: 
+      m_Interactions: Press
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: a9fdc0ae-0356-4761-ae81-553f01a0147a
+        m_Path: <Keyboard>/r
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Reset Camera
+        m_Flags: 0
+    RotateCameraAction:
+      m_Name: Rotate Camera
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c973049d-1e41-47d2-9f8f-07b1c7e88fe6
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 88725be2-dd7b-418b-992a-d0694de66ed3
+        m_Path: <Mouse>/rightButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Rotate Camera
+        m_Flags: 0
+    ZoomDeltaAction:
+      m_Name: Zoom Delta
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a726ee90-4146-4c0d-97e2-ef62915363ca
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 4758b42e-8993-47b2-a293-506c34aec75d
+        m_Path: <Mouse>/scroll/y
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Zoom Delta
+        m_Flags: 0
+    DragTriggerMoveAction:
+      m_Name: Drag Trigger Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 55530e5a-bfe5-4e0e-bbac-a966020e816c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 14b55fc8-0558-473a-8324-182fe7a8b80b
+        m_Path: <Mouse>/middleButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Drag Trigger Move
+        m_Flags: 0
+    DragMoveAction:
+      m_Name: Drag Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 3e345a7a-a8ce-4c65-9eca-189756a63c42
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 575ba168-1bbb-4af2-88a3-4291f3286a90
+        m_Path: <Mouse>/delta
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Drag Move
+        m_Flags: 0
+    ToggleCollisionAction:
+      m_Name: Toggle Collision
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: c2727964-91ca-4946-b720-d7b432062eac
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 1b73e3a3-81d7-426d-8fee-890dacc03385
+        m_Path: <Keyboard>/h
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Toggle Collision
+        m_Flags: 0
+    BoostAction:
+      m_Name: Boost
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 24e40a85-7910-495c-8481-9bcf9a3c5bff
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: d7fabffd-a34f-42cf-a55c-edfe0fe6d87f
+        m_Path: <Keyboard>/shift
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Boost
+        m_Flags: 0
+    MousePositionAction:
+      m_Name: Mouse Position
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1b6361c1-806a-42ce-85e6-c3389823583f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 1c1fc3aa-e497-4125-b1bc-68ea09754847
+        m_Path: <Mouse>/position
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Mouse Position
+        m_Flags: 0
+    RotateAction:
+      m_Name: Rotate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 9033c6bd-9210-440d-b901-cf5965932d31
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 32676e49-0d62-4c2c-9bc0-559243b5d07a
+        m_Path: <Mouse>/delta
+        m_Interactions: 
+        m_Processors: ScaleVector2(x=0.1,y=0.1)
+        m_Groups: 
+        m_Action: Rotate
+        m_Flags: 0
+    SelectAction:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b644e52f-4bf5-432f-97c4-6f1af4a7103e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 5bac75c1-231a-4439-871b-2d56a2ccc222
+        m_Path: <Mouse>/leftButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Select
+        m_Flags: 0
+    CancelSelectionAction:
+      m_Name: Cancel Selection
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e7ba0d2f-1e22-45bd-b475-7e8fdcc58218
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 83ff6af5-85ea-4454-8574-a61ca9214823
+        m_Path: <Keyboard>/escape
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Cancel Selection
+        m_Flags: 0
+    CenterSelectedObjectAction:
+      m_Name: Center Selected Object
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 231b31c8-6490-4b02-9f9e-6a24beb96c71
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 9d941334-635e-416c-9476-15e291c1c56c
+        m_Path: <Keyboard>/f
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Center Selected Object
+        m_Flags: 0
+    ToggleFollowSelectedObjectAction:
+      m_Name: Toggle Follow Selected Object
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2c382a8a-aa16-474d-b5ac-ac57950fd08a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 4e35d314-ae49-4c96-af59-5327c75c52cc
+        m_Path: <Keyboard>/g
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Toggle Follow Selected Object
+        m_Flags: 0
+    MoveAction:
+      m_Name: Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: aa635057-e4fa-403c-b6ea-a969fe3382b9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: E/Q and A/D
+        m_Id: 3b5a1964-42ee-4ac4-ac54-2e205daebeef
+        m_Path: 2DVector
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 4
+      - m_Name: up
+        m_Id: a4e196ca-8be7-474a-96c4-042caa8098f6
+        m_Path: <Keyboard>/e
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: down
+        m_Id: 73a9fb13-9cb9-4bec-b7f4-32af99bfd43e
+        m_Path: <Keyboard>/q
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: left
+        m_Id: 72ab2522-f323-41d5-846e-42112cf975ef
+        m_Path: <Keyboard>/a
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: right
+        m_Id: cf074287-1717-439d-84ec-89cc6bcd7f8b
+        m_Path: <Keyboard>/d
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: Arrows
+        m_Id: 4ceb918e-1079-461c-aef4-95335bdb7122
+        m_Path: 2DVector
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 4
+      - m_Name: up
+        m_Id: 8e70d902-3519-4a9a-8d9d-22dbb5936e00
+        m_Path: <Keyboard>/space
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: down
+        m_Id: 9adb0763-b301-4937-8677-97aff8b1d29c
+        m_Path: <Keyboard>/c
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: left
+        m_Id: ebb7f95b-c1c2-490d-b107-e511047405fa
+        m_Path: <Keyboard>/leftArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+      - m_Name: right
+        m_Id: 5871242d-1127-4caf-8246-fe3b0ccaabfd
+        m_Path: <Keyboard>/rightArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Move
+        m_Flags: 8
+    ForwardMoveAction:
+      m_Name: Forward Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: beff292a-6a06-492a-b326-fb269f274ed0
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: W/S
+        m_Id: f3326b73-ec0a-4535-885e-ab5a481267f2
+        m_Path: 1DAxis
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Forward Move
+        m_Flags: 4
+      - m_Name: negative
+        m_Id: cda51923-2c3c-4357-96f1-3298f62b5b8e
+        m_Path: <Keyboard>/s
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Forward Move
+        m_Flags: 8
+      - m_Name: positive
+        m_Id: a5545a7a-a860-4c8e-a357-95c136381cdb
+        m_Path: <Keyboard>/w
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Forward Move
+        m_Flags: 8
+      - m_Name: Arrows
+        m_Id: fc832034-4d80-44e1-a783-17ed97fe221d
+        m_Path: 1DAxis
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Forward Move
+        m_Flags: 4
+      - m_Name: negative
+        m_Id: b1ba1b0c-c7b0-4668-9605-d04a2654e1ff
+        m_Path: <Keyboard>/downArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Forward Move
+        m_Flags: 8
+      - m_Name: positive
+        m_Id: 5903d23e-86d3-4604-a841-b23c0d159e95
+        m_Path: <Keyboard>/upArrow
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Forward Move
+        m_Flags: 8
+--- !u!114 &244763045455314315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243474432898218195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379da5c0e38304bf1bb3766e9f52b853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowGizmos: 1
+  AllowedAreaGizmoColor: {r: 1, g: 0.58, b: 0, a: 1}
+  SelectionGizmoColor: {r: 0, g: 0.58, b: 1, a: 1}
+  RenderGUI: 1
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!54 &5243474432378291810
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243474432898218195}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 2
+--- !u!135 &5243474432378291813
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243474432898218195}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1936786755877935399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5243474432898218195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b0e691b34c7491d8980a498ae196ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialDistance: 8
+  MinDistance: 4
+  MaxDistance: 15
+  TargetOffset: {x: 0, y: 1, z: 0}
+  AlwaysLookAtTarget: 0
+  LockRotationX: 0
+  InvertRotationX: 0
+  MinXAngle: 0
+  MaxXAngle: 90
+  UseStartRotationX: 0
+  StartRotationX: 60
+  LockRotationY: 0
+  InvertRotationY: 0
+  UseStartRotationY: 0
+  StartRotationY: 0

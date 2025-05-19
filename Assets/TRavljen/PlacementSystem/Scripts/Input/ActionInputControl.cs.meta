@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7841830a20c8645ecaeab81e65c639ff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Scripts/Input/ActionInputControl.cs
+  uploadId: 754268

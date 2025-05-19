@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e3088003b7f004aa486a0a6ce0ad2f00
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Scripts/Input/Cursor/DefaultMousePositionProvider.cs
+  uploadId: 754268

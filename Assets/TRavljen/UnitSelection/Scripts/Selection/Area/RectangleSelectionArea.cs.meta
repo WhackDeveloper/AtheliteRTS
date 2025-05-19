@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5f13276dfe5c04eb08f90c27a01daa89
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Scripts/Selection/Area/RectangleSelectionArea.cs
+  uploadId: 754268

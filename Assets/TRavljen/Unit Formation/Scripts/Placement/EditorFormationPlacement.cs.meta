@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ea4af0f183c954787828e9a894d8a30f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - target: {instanceID: 0}
+  - directionArrowMesh: {fileID: 3613567641014311022, guid: 9c39037072a654d1a815b787c6983dfe,
+      type: 3}
+  - directionMaterial: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Unit Formation/Scripts/Placement/EditorFormationPlacement.cs
+  uploadId: 754268

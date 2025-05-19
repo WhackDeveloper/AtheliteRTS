@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 44f62b06d0ab1477a83d39d525e61563
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Unit Formation/Scripts/Input/AInputControl.cs
+  uploadId: 754268

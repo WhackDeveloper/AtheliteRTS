@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fbabd1f16eed94c13ac186bdc1a436f6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Editor/PlayerRelationshipManagerEditor.cs
+  uploadId: 754268

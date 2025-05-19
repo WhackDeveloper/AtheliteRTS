@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c86f13aebe5bf42969259d1d72608e0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Demo (Can remove)/Scripts/RotationControl.cs
+  uploadId: 754268

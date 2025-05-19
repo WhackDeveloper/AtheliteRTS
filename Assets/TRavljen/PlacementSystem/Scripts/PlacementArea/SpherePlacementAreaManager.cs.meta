@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 23d8251788aa47878f29181cf3a3b543
+timeCreated: 1745665395
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Scripts/PlacementArea/SpherePlacementAreaManager.cs
+  uploadId: 754268

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d733b7a040e0a4c27bf592e2dde1c172
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Collection/Node/IResourceNodeCapability.cs
+  uploadId: 754268

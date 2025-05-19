@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 68eaf95f3487e46e5b3e845648044a74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Demo/Scripts/Interactions/EntitySelector.cs
+  uploadId: 754268

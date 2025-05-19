@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 14b0e691b34c7491d8980a498ae196ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Spectator/Scripts/FollowCamera.cs
+  uploadId: 754268

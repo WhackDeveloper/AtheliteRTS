@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 50c811df136344bd89d7d941620b204a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Integration/Scripts/SelectedUnitsFormation.cs
+  uploadId: 754268

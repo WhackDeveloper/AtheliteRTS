@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cea9a9d1cfd594a909c658f5d3b717c4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Demo/Scenes/Demo Scene/DemoTerrain.asset
+  uploadId: 754268

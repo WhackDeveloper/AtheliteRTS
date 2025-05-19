@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 47c3bb06d8b2342aa8e6a8d91b8b33a2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Scripts/Unit/SelectableGroup.cs
+  uploadId: 754268

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d6029f79201dc4f5c8b3b27c038b16b6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Collection/Task/ResourceCollectorInput.cs
+  uploadId: 754268

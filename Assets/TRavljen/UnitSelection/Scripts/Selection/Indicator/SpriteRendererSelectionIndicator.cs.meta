@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4deac895d77f14193a80b66b0a6b4b4e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Scripts/Selection/Indicator/SpriteRendererSelectionIndicator.cs
+  uploadId: 754268

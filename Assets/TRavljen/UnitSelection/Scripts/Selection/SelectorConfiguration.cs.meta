@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cb7a5a5e2ebdc4d5ab3d692e6ca4cb4d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Scripts/Selection/SelectorConfiguration.cs
+  uploadId: 754268

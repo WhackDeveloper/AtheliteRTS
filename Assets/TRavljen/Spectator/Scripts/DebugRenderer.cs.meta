@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 379da5c0e38304bf1bb3766e9f52b853
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Spectator/Scripts/DebugRenderer.cs
+  uploadId: 754268

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7896a509704504bdb9d090c447fbad26
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Demo/Scripts/Interactions/TargetedUnitInteractions.cs
+  uploadId: 754268

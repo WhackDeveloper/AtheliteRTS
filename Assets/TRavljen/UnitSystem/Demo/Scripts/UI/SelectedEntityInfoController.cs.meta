@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f5dd89f9621da49afad37f9c03bb47bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Demo/Scripts/UI/SelectedEntityInfoController.cs
+  uploadId: 754268

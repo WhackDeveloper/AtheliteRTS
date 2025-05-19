@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4aa2c27ba3b1c46de9668ce6481af60d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Utility/LayerMaskExtension.cs
+  uploadId: 754268

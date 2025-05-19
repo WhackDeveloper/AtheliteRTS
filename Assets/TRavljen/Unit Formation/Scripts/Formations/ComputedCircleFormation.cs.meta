@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4bd4e6bb7e3df473db468d7e3a1be90e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Unit Formation/Scripts/Formations/ComputedCircleFormation.cs
+  uploadId: 754268

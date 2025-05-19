@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: aa84840795fdf4643a9d3879039bb5ca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Scripts/Filter/PlayerOwnedUnitFilter.cs
+  uploadId: 754268

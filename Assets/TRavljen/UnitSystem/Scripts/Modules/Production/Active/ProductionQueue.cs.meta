@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 21e0d6d1b2bfc4a22b4b687e7aff5a4c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Production/Active/ProductionQueue.cs
+  uploadId: 754268

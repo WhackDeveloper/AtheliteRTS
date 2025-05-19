@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3648a2aedaf34679866f2dc4e0a1e1c, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483644
+  Name: Archer
+  Description: 
+  Sprite: {fileID: 0}
+  ProductionAttributes:
+  - Attribute: {fileID: 11400000, guid: c385507d365644a9394ec7478b0c3972, type: 2}
+    Value: 1
+  Requirements:
+  - Producible: {fileID: 11400000, guid: 1f16b5f3b3e02468c96a2dbc4f269d9e, type: 2}
+    Quantity: 1
+  Cost:
+  - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+    Quantity: 20
+  - Resource: {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+    Quantity: 50
+  ProductionDuration: 3
+  capabilities:
+  - rid: 1805783049495379983
+  - rid: 1805783192630984719
+  types:
+  - {fileID: 11400000, guid: cf6df12f0d0084ed797aa937916a8572, type: 2}
+  associatedPrefab: {fileID: 5288227324572888078, guid: 81a038f390d6e4db8b7b2e281ab20b02, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1805783049495379983
+      type: {class: AttackCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        defaultStance: 0
+        minRange: 0
+        range: 15
+        reloadSpeed: 3
+        damage: 30
+        lineOfSight: 25
+        damagePerType:
+        - unitType: {fileID: 11400000, guid: 773384b5fc5454d8dbd5cd19cc82f1d7, type: 2}
+          entity: {fileID: 0}
+          damage: 15
+        invalidTargetTypes: []
+    - rid: 1805783192630984719
+      type: {class: HealthCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        healthPoints: 140
+        canDecrease: 1
+        canIncrease: 0
+        regeneration: 0

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0eb1898348f1e490a9ccf754febd0950
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Limitation/UnitLimitAttributeSO.cs
+  uploadId: 754268

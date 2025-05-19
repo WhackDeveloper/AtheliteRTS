@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2dddc1a821d3d4866a6a80a8a48a7d3c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Build/Buildable/RaiseBuildingAnimation.cs
+  uploadId: 754268

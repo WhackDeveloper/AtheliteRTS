@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a5f88df81a7e04d078be8560a0f7d59e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Scripts/Bounds/ColliderPlacementBounds.cs
+  uploadId: 754268

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d4bb2ea347aa04e6fb3502d666a4a3ff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - populationConsumptionAttribute: {fileID: 11400000, guid: c385507d365644a9394ec7478b0c3972,
+      type: 2}
+  - populationCapacityAttribute: {fileID: 11400000, guid: 5a4d064a66a724dfc8304783a44d47f6,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Population/PopulationModule.cs
+  uploadId: 754268

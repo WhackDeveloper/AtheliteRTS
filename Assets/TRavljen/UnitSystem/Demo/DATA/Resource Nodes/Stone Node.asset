@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0db747347814552936cad77514c3d4, type: 3}
+  m_Name: Stone Node
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483633
+  Name: Stone Node
+  Description: 
+  Sprite: {fileID: 0}
+  ProductionAttributes: []
+  Requirements: []
+  Cost: []
+  ProductionDuration: 0
+  faction: {fileID: 0}
+  capabilities:
+  - rid: 1805783049495379994
+  associatedPrefab: {fileID: 6537538618537234173, guid: f0d7c7f75fee54089820d5b084547af6,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1805783049495379994
+      type: {class: ResourceNodeCapability, ns: TRavljen.UnitSystem.Collection, asm: Assembly-CSharp}
+      data:
+        resource:
+          Resource: {fileID: 11400000, guid: 7372d8747134b40979a2c0b0c163743a, type: 2}
+          Quantity: 3000

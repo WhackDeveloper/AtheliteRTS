@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ca90e425fadbd4dd9b9b3033808b8bf3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Unit/Control/Spawn/UnitSpawnPoint.cs
+  uploadId: 754268

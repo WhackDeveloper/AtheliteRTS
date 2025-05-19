@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 030f9d6893ac448a1a804da3a7cd9f9c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/UnitSystemConfig.asset
+  uploadId: 754268

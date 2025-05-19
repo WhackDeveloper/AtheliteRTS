@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b426092cf0dbe4e13aeab08192322d55, type: 3}
+  m_Name: Blue Cubes
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483639
+  factionName: Blue Cubes
+  description: Blues
+  unitMaxLimit:
+  - unit: {fileID: 11400000, guid: d27cb064cb80344ad86754b1b71486b0, type: 2}
+    limit: 1
+  defaultActions:
+  - keyCode: 282
+    producibleQuantity:
+      Producible: {fileID: 11400000, guid: d27cb064cb80344ad86754b1b71486b0, type: 2}
+      Quantity: 1
+  - keyCode: 283
+    producibleQuantity:
+      Producible: {fileID: 11400000, guid: 65a62c70e546748d88d4e02af2ae7f18, type: 2}
+      Quantity: 1
+  - keyCode: 284
+    producibleQuantity:
+      Producible: {fileID: 11400000, guid: d4716c51a2bfa4732a0a88b170df7c17, type: 2}
+      Quantity: 1
+  - keyCode: 285
+    producibleQuantity:
+      Producible: {fileID: 11400000, guid: 90262b18f390a4fab9c1ba3b6fae5b05, type: 2}
+      Quantity: 1
+  - keyCode: 286
+    producibleQuantity:
+      Producible: {fileID: 11400000, guid: 46a17e1151cbc44a280fa4d07b156117, type: 2}
+      Quantity: 1
+  - keyCode: 287
+    producibleQuantity:
+      Producible: {fileID: 11400000, guid: 05b138d84a20645a98f2b4b5282dd971, type: 2}
+      Quantity: 1
+  startData:
+    PopulationHardLimit: 100
+    PopulationCapacity: 0
+    units:
+    - count: 2
+      unit: {fileID: 11400000, guid: af0eeb76cdf194667a7b2d44b74a87fe, type: 2}
+    - count: 0
+      unit: {fileID: 11400000, guid: 47ecbf77d8524482495dd2de6d03914c, type: 2}
+    - count: 0
+      unit: {fileID: 11400000, guid: 8727dbb7760f74723bfc95d0043ac265, type: 2}
+    resources:
+    - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+      Quantity: 1000
+    - Resource: {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+      Quantity: 1000
+    - Resource: {fileID: 11400000, guid: 7372d8747134b40979a2c0b0c163743a, type: 2}
+      Quantity: 200
+    resourceCapacities:
+    - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+      Quantity: 5000
+    - Resource: {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+      Quantity: 5000
+    - Resource: {fileID: 11400000, guid: 7372d8747134b40979a2c0b0c163743a, type: 2}
+      Quantity: 5000
+    researches:
+    - {fileID: 11400000, guid: d0b8cc631449c44c3aea74b45c7f9359, type: 2}

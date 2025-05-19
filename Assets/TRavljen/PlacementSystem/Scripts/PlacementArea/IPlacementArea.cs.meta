@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 78ea68362d7c470f9ae2cee90d66b822
+timeCreated: 1745671075
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Scripts/PlacementArea/IPlacementArea.cs
+  uploadId: 754268

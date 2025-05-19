@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a5b560154c3f344aaa7e7e29a4bab0d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Interactions/ALimitedInteractionTarget.cs
+  uploadId: 754268

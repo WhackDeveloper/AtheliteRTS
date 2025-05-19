@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 38df52015cb3c431b8e60203532391f7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Integration/Scripts/FormationNavMeshMovement.cs
+  uploadId: 754268

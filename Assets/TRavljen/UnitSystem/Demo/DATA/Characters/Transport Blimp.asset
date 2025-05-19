@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3648a2aedaf34679866f2dc4e0a1e1c, type: 3}
+  m_Name: Transport Blimp
+  m_EditorClassIdentifier: 
+  uniqueID: 2
+  Name: Transport Blimp
+  Description: Vehicle used for transporting units. Cannot attack and is vulnerable.
+  Sprite: {fileID: 0}
+  ProductionAttributes: []
+  Requirements: []
+  Cost:
+  - Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+    Quantity: 300
+  - Resource: {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+    Quantity: 200
+  ProductionDuration: 10
+  capabilities:
+  - rid: 7350779704137744392
+  - rid: 7350779704137744393
+  types:
+  - {fileID: 11400000, guid: 7549259272d014377bf4cb56f676e24b, type: 2}
+  - {fileID: 11400000, guid: dbaf5ca59e3894ff0bff2f8542d92f0d, type: 2}
+  associatedPrefab: {fileID: 2451550494331422763, guid: ea16418d692ca45cd8e54cde743cadf2, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 7350779704137744392
+      type: {class: GarrisonUnitsCapability, ns: TRavljen.UnitSystem.Garrison, asm: Assembly-CSharp}
+      data:
+        capacity: 5
+        spawnsGarrisonedUnits: 1
+        permittedTypes: []
+        excludedUnits: []
+    - rid: 7350779704137744393
+      type: {class: HealthCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        healthPoints: 150
+        canDecrease: 1
+        canIncrease: 0
+        regeneration: 0

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 65232c1fd07974ae88cfdd0044fb0cba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Tooltip/Input/DefaultMousePositionProvider.cs
+  uploadId: 754268

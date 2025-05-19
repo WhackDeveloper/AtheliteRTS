@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3648a2aedaf34679866f2dc4e0a1e1c, type: 3}
+  m_Name: Wild Deer
+  m_EditorClassIdentifier: 
+  uniqueID: 0
+  Name: Wild deer
+  Description: 
+  Sprite: {fileID: 0}
+  ProductionAttributes: []
+  Requirements: []
+  Cost: []
+  ProductionDuration: 0
+  faction: {fileID: 0}
+  capabilities:
+  - rid: 1028065782035906562
+  - rid: 1028065782035906563
+  types:
+  - {fileID: 11400000, guid: 3ca310e20e81a42939af9c651fcb97ec, type: 2}
+  associatedPrefab: {fileID: 8684306030729357149, guid: ce7cc42594d7e4db586e0c406072667f,
+    type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1028065782035906562
+      type: {class: HealthCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        healthPoints: 120
+        canDecrease: 1
+        canIncrease: 0
+        regeneration: 3
+    - rid: 1028065782035906563
+      type: {class: ResourceNodeCapability, ns: TRavljen.UnitSystem.Collection, asm: Assembly-CSharp}
+      data:
+        resource:
+          Resource: {fileID: 11400000, guid: a5088d6c2f2f449d58b9fb4621644d5b, type: 2}
+          Quantity: 200

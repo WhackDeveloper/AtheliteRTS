@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7364392373282618577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7364392373282618576}
+  - component: {fileID: 7364392373282618578}
+  - component: {fileID: 7364392373282618579}
+  - component: {fileID: 7364392373282618581}
+  m_Layer: 0
+  m_Name: Wave Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7364392373282618576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364392373282618577}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7364392373282618578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364392373282618577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd4521641b994d82842e5e6b6f5daaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instantConstruction: 1
+  player: {fileID: 0}
+  moveAfterSpawn: 0
+  spawnPoints:
+  - {fileID: 7364392373282618581}
+--- !u!114 &7364392373282618579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364392373282618577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a2f6e0836a04b438ad4bc777d80e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPlayer: {fileID: 0}
+  botPlayer: {fileID: 0}
+  resetTimerAfterWavesIsCleared: 1
+  delayBeforeFirstWave: 30
+  timeBetweenWaves: 30
+  prefabs:
+    units:
+    - count: 4
+      unit: {fileID: 11400000, guid: 112fdacee878645eab20821df39dca0f, type: 2}
+    - count: 2
+      unit: {fileID: 11400000, guid: 8727dbb7760f74723bfc95d0043ac265, type: 2}
+  waveSpawner: {fileID: 7364392373282618578}
+  spawnTimer: 0
+  isWaveActive: 0
+  activeWaveUnits: []
+--- !u!114 &7364392373282618581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364392373282618577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c70beb4b74d43ad9ad0d9ae9efe88a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnedUnitTargetPosition: {x: 0, y: 0, z: 0}
+  spawnPosition: {x: 0, y: 0, z: 0}
+  targetGizmoEnabled: 1
+  targetPositionGizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  minSpawnRadius: 2
+  maxSpawnRadius: 10
+  minMovePositionRadius: 2
+  maxMovePositionRadius: 15
+  spawnRadiusGizmoEnabled: 1
+  spawnRadiusGizmoColor: {r: 0, g: 0, b: 1, a: 1}

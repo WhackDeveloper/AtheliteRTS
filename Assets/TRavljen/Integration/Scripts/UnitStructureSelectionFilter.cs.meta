@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5be83bbddfdff4a94998eefa1a4b6ae5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Integration/Scripts/UnitStructureSelectionFilter.cs
+  uploadId: 754268

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 75014536d95544e2a9bf002726353283
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/Spectator/Scripts/Options/SelectionOptions.cs
+  uploadId: 754268

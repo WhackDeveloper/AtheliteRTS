@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2784928469195044342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2784928469195044345}
+  - component: {fileID: 2784928469195044344}
+  m_Layer: 0
+  m_Name: Input
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2784928469195044345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784928469195044342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.349193, y: -3.09323, z: -8.256611}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2784928470958431071}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2784928469195044344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784928469195044342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547c0babefa204bb78cc74951316ca26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleActivePlacementKey: 98
+  cancelPlacementKey: 27
+  finishPlacementKey: 323
+  holdToRotate: 1
+  rotateClockwiseKey: 117
+  rotateCounterClockwiseKey: 121
+  nextPrefabKey: 43
+  previousPrefabKey: 45
+  prefabKeys: 31000000320000003300000034000000350000003600000037000000380000003900000030000000
+--- !u!1 &2784928470958431069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2784928470958431071}
+  - component: {fileID: 2784928470958431068}
+  m_Layer: 0
+  m_Name: Object Placement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2784928470958431071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784928470958431069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2784928469195044345}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2784928470958431068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784928470958431069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566d3fba0f6b04c56997b23770309b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 0}
+  placementObjectPrefab: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  maxDetectionDistance: 150
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  destructablesLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  destroyDestructableOnPlacement: 1
+  ignoreWhenOverUI: 1
+  placementArea:
+    boundsType: 0
+    boxBounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 5, y: 5, z: 5}
+    sphereBounds:
+      center: {x: 0, y: 0, z: 0}
+      radius: 25
+  clampInsidePlacementArea: 0
+  groundAlignmentType: 1
+  groundAlignment:
+    GroundDetectionOffset: 10
+    debugLogsEnabled: 0
+  groundAngleThreshold:
+    min: 0
+    max: 15
+  rotationSpeed: 90
+  preserveRotation: 1
+  usePositionSnapping: 0
+  gridSnapper:
+    gridScale: {x: 2, y: 2}
+    gridOrigin: {x: 0, y: 0, z: 0}
+    gizmoGridOriginColor: {r: 1, g: 0, b: 0, a: 1}
+    gizmoGridPointsColor: {r: 0, g: 0, b: 1, a: 1}
+    gizmoGridPlacementPointColor: {r: 1, g: 0.64705884, b: 0, a: 1}
+    gizmosSphereSize: 0.25
+  applyPlacementMaterials: 1
+  validPlacementMaterials:
+  - {fileID: 2100000, guid: fef41be3753c346e582bfc4811d175eb, type: 2}
+  invalidPlacementMaterials:
+  - {fileID: 2100000, guid: f9b384e4753f644d7a6acf4d983d83e7, type: 2}
+  allowPlacementDuringAnimations: 1
+  animatingAngleThreshold: 5
+  animatingDistanceThreshold: 1
+  animatePositionChange: 1
+  positionChangeSpeed: 5
+  animateRotationChange: 1
+  rotationChangeSpeed: 5
+  debugLogsEnabled: 0
+  drawGizmosEnabled: 1
+  gizmoPlacementAreaColor: {r: 1, g: 1, b: 0, a: 0.3}
+  gizmoPlacementBoundsColor: {r: 1, g: 0, b: 0, a: 1}
+  gizmoPlacementGroundPositionsColor: {r: 0, g: 1, b: 0, a: 1}
+  PlacementPrefabs: {fileID: 0}

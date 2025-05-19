@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b4fef6e5e72394bc8b1129c6bbc51ce9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/PlacementSystem/Scripts/Interface/ObjectPlacementObserver.cs
+  uploadId: 754268

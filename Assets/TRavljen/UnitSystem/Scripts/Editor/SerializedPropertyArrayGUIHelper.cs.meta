@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4b185435735bd461db84505e8b974898
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Editor/SerializedPropertyArrayGUIHelper.cs
+  uploadId: 754268

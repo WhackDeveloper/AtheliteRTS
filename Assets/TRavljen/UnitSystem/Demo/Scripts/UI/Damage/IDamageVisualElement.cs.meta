@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3012d2b49a37a429fae277d7435acbdd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Demo/Scripts/UI/Damage/IDamageVisualElement.cs
+  uploadId: 754268

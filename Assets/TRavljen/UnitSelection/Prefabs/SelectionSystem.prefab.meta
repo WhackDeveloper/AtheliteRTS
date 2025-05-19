@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a4481fd5acca4445aaecde54f394b36d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSelection/Prefabs/SelectionSystem.prefab
+  uploadId: 754268

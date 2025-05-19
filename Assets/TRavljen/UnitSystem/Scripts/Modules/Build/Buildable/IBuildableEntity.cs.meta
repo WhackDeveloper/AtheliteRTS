@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a53122b798e8d448b9ce654b9e3fe1a6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Scripts/Modules/Build/Buildable/IBuildableEntity.cs
+  uploadId: 754268

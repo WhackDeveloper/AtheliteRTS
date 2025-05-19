@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: bb3dbbff383d8448b9e963f0f1121f66
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - elementPrefab: {fileID: 2804280722348218751, guid: f220f332e632148cfb48085f5abe5ae3,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 301816
+  packageName: Strategy Bundle
+  packageVersion: 1.0.0
+  assetPath: Assets/TRavljen/UnitSystem/Demo/Scripts/UI/Actions/ProductionUnitUIActions.cs
+  uploadId: 754268

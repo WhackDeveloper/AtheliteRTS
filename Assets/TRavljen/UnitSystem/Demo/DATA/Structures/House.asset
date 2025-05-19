@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3648a2aedaf34679866f2dc4e0a1e1c, type: 3}
+  m_Name: House
+  m_EditorClassIdentifier: 
+  uniqueID: -2147483626
+  Name: House
+  Description: Housing for villagers
+  Sprite: {fileID: 0}
+  ProductionAttributes:
+  - Attribute: {fileID: 11400000, guid: 5a4d064a66a724dfc8304783a44d47f6, type: 2}
+    Value: 5
+  Requirements:
+  - Producible: {fileID: 11400000, guid: d27cb064cb80344ad86754b1b71486b0, type: 2}
+    Quantity: 1
+  Cost:
+  - Resource: {fileID: 11400000, guid: 551d5b6b664c949599a5ea70b7f04a43, type: 2}
+    Quantity: 10
+  ProductionDuration: 5
+  capabilities:
+  - rid: 1805783144831123468
+  - rid: 4646993757607559168
+  types:
+  - {fileID: 11400000, guid: 773384b5fc5454d8dbd5cd19cc82f1d7, type: 2}
+  associatedPrefab: {fileID: 5104237790915577986, guid: 6e1f0eba239d745cab4266cbd40a76d4, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1805783144831123468
+      type: {class: HealthCapability, ns: TRavljen.UnitSystem.Combat, asm: Assembly-CSharp}
+      data:
+        healthPoints: 400
+        canDecrease: 1
+        canIncrease: 1
+        regeneration: 0
+    - rid: 4646993757607559168
+      type: {class: BuildableCapability, ns: TRavljen.UnitSystem.Build, asm: Assembly-CSharp}
+      data:
+        autoBuild: 0
+        useHealth: 1
